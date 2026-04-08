@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m pip install python-docx)",
+      "Bash(apt-get install:*)",
+      "Read(//mnt/**)",
+      "Bash(find / -maxdepth 4 -name CURRICULUM* -o -name curriculum*)"
+    ]
+  }
+}
